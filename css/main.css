@@ -1,0 +1,121 @@
+
+body {
+    text-align: center;
+    color: #476F4D
+    background-color:#B2DDA5;
+    width: 1000px; /* many units for width */
+}
+
+div.pdivclass {
+    color: whitesmoke;
+}
+
+div.class {
+    background:skyblue;
+}
+
+p {
+    color: black;
+    /*background-color: white; */
+}
+
+div.align {
+
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+    color: #476F4D;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+div.myDiv {
+    color: black;476F4D
+    border: 2.5px outset #FF4500;
+    background-color: white;
+    text-align: center;
+    width: 43%;
+    margin: auto;
+  }
+
+h3 {
+    text-decoration: overline;
+    text-align: center;
+    color: white;
+}
+
+h4 { 
+    color: black;
+}
+
+ol {
+    padding: 10px;
+    margin: 10px;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    width: 16%;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 10px;
+}
+
+  span.webpage{
+    color: #B2DDA5;
+}
+
+div.shadowbox {
+   margin: auto;
+    width: 50em;
+    border: 1px solid white;
+    box-shadow: 8px 8px 5px #B2DDA5;
+    padding: 8px 12px;
+    background-image: linear-gradient(180deg, #fff, #ddd 100%, #ccc);
+  }
+
+  div.license {
+
+    background: #B2DDA5;
+  }
+
+/*/
+/* part after # is called the id */
+a#myid {
+    color: black;
+}
+
+/* menu is a class or "true class" */
+a.menu {
+    color: white;
+}
+
+/* :hover is a pseudo-class */
+li:hover {
+    background-color: #476F4D;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: #B2DDA5;
+    }
+  }
+
+/*
+lines 1-3 are a "CSS block"
+css_selector {
+    property: value;
+    property: value;
+    property: value;
+    property: value;
+}
+class/id attributes to set properties of only certain tags
+this is a comment and is ignored
+*/
